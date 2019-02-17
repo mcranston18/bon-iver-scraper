@@ -1,0 +1,4 @@
+cron:
+  - description: 'check tix'
+    url: /boniver
+    schedule: every 15 mins

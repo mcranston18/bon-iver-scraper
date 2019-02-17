@@ -1,0 +1,10 @@
+html
+  head
+    title= title
+  body
+    h1 bon iver
+    p= now
+    p tickets available: #{result.ticketsAvailable}
+    p msg: #{result.msg}
+    img(src=`data:image/png;base64, ${result.image}`)
+
